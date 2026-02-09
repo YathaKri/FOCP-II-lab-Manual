@@ -7,6 +7,6 @@ int main(){
     cout<<"enter your name: ";
     getline(cin, name);
     cout<<"Your Name is :"<<name<<endl;    
-
+    
     return 0;
 }
