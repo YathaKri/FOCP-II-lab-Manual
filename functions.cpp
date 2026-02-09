@@ -9,13 +9,13 @@ int sub(int x,int y){
 int mult(int x,int y){
     return x*y;
 }
-int divi(int x,int y){
+float divi(int x,int y){
     return x/y;
 }
 int main(){
     int choice;
     int a,b;
-    int result;
+    float result;
     cout<<"Enter 1st number:";
     cin>>a;
     cout<<"Enter 2nd number:";
