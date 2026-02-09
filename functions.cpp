@@ -1,20 +1,20 @@
 #include<iostream>
 using namespace std;
-int add(int x,int y){
+int add(float x,float y){
     return x+y;
 }
-int sub(int x,int y){
+int sub(float x,float y){
     return x-y;
 }
-int mult(int x,int y){
+int mult(float x,float y){
     return x*y;
 }
-float divi(int x,int y){
+float divi(float x,float y){
     return x/y;
 }
 int main(){
     int choice;
-    int a,b;
+    float a,b;
     float result;
     cout<<"Enter 1st number:";
     cin>>a;
