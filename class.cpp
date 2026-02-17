@@ -13,7 +13,7 @@ public:
     }
 
     float area() {
-        return 0.5 * base * height;
+        return 1/2 * base * height;
     }
 
     void displayArea() {
