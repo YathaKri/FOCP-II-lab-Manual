@@ -20,7 +20,7 @@ public:
     int seatingCapacity = 4;
 
     void showChild() {
-        cout<<"Child function: This model is a "<<model<<"of the company "<<brand<<" with "<<seatingCapacity<<" seats."<< endl;
+        cout<<"Child function: This model is a "<<model<<" of the company "<<brand<<" with "<<seatingCapacity<<" seats."<< endl;
     }
 };
 
