@@ -5,11 +5,11 @@ using namespace std;
 
 class Vehicle {
 public:
-    string brand = "Ford";
-    int year = 2023;
+    string brand="Ford";
+    int year=2023;
 
     void showParent() {
-        cout << "Parent function: I am a " << brand << " from " << year << endl;
+        cout<<"Parent function: I am a "<<brand<<" from "<<year<<endl;
     }
 };
 
@@ -20,7 +20,7 @@ public:
     int seatingCapacity = 4;
 
     void showChild() {
-        cout << "Child function: This model is a " << model << " with " << seatingCapacity << " seats." << endl;
+        cout<<"Child function: This model is a "<<model<<"of the company "<<brand<<" with "<<seatingCapacity<<" seats."<< endl;
     }
 };
 
