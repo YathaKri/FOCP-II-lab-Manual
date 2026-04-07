@@ -21,3 +21,14 @@ public:
              << ", Subject: " << subject << ", Marks: " << marks << endl;
     }
 };
+int main() {
+    Result res;
+    res.name = "Yatharth";
+    res.rollNumber = 24;
+    res.subject = "Engineering Physics";
+    res.marks = 95.0;
+
+    res.displayAllDetails();
+
+    return 0;
+}

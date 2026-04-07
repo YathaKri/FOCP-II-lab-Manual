@@ -17,3 +17,15 @@ public:
     int numberOfSeats;
     string carType;
 };
+int main() {
+    Car myCar;
+    myCar.vehicleNumber = 1001;
+    myCar.rentalPrice = 50.0;
+    myCar.numberOfSeats = 4;
+    myCar.carType = "Sedan";
+
+    myCar.displayDetails();
+    cout << "Seats: " << myCar.numberOfSeats << ", Type: " << myCar.carType << endl;
+
+    return 0;
+}
