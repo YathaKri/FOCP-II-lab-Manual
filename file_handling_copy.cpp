@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     ofstream file("data.txt",ios::app);
-    file<<"hello bruh  :[";
+    file<<" fahhhhh  ";
     file.close();
     return 0;
 }
